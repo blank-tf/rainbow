@@ -26,6 +26,9 @@ class RainbowVC: UIViewController {
         // it's in a weird format that fucks up the interpolate() function
         view.backgroundColor = UIColor(red: 1, green: 1, blue: 1, alpha: 1)
         
+        // from my understanding, CADisplayLink is used to call a function every redraw (frame)
+        // of the application. I'm just using it here to call rainbow() every frame.
+        // maybe not the exact right way to use it, but it works, right?
         let displayLink = CADisplayLink(target: self, selector: #selector(rainbow))
         displayLink.add(to: .main, forMode: .common)
     }
