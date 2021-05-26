@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		3FF311832655682C000A399D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF311822655682C000A399D /* AppDelegate.swift */; };
 		3FF311852655682C000A399D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF311842655682C000A399D /* SceneDelegate.swift */; };
-		3FF311872655682C000A399D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF311862655682C000A399D /* ViewController.swift */; };
+		3FF311872655682C000A399D /* RainbowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF311862655682C000A399D /* RainbowVC.swift */; };
 		3FF3118A2655682C000A399D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF311882655682C000A399D /* Main.storyboard */; };
 		3FF3118C2655682F000A399D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FF3118B2655682F000A399D /* Assets.xcassets */; };
 		3FF3118F2655682F000A399D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF3118D2655682F000A399D /* LaunchScreen.storyboard */; };
+		3FF311992655CD6E000A399D /* LandingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF311982655CD6E000A399D /* LandingVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3FF3117F2655682C000A399D /* rainbow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rainbow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF311822655682C000A399D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FF311842655682C000A399D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3FF311862655682C000A399D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FF311862655682C000A399D /* RainbowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowVC.swift; sourceTree = "<group>"; };
 		3FF311892655682C000A399D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FF3118B2655682F000A399D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FF3118E2655682F000A399D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FF311902655682F000A399D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FF311982655CD6E000A399D /* LandingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				3FF311822655682C000A399D /* AppDelegate.swift */,
 				3FF311842655682C000A399D /* SceneDelegate.swift */,
-				3FF311862655682C000A399D /* ViewController.swift */,
+				3FF311862655682C000A399D /* RainbowVC.swift */,
 				3FF311882655682C000A399D /* Main.storyboard */,
+				3FF311982655CD6E000A399D /* LandingVC.swift */,
 				3FF3118B2655682F000A399D /* Assets.xcassets */,
 				3FF3118D2655682F000A399D /* LaunchScreen.storyboard */,
 				3FF311902655682F000A399D /* Info.plist */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FF311872655682C000A399D /* ViewController.swift in Sources */,
+				3FF311872655682C000A399D /* RainbowVC.swift in Sources */,
+				3FF311992655CD6E000A399D /* LandingVC.swift in Sources */,
 				3FF311832655682C000A399D /* AppDelegate.swift in Sources */,
 				3FF311852655682C000A399D /* SceneDelegate.swift in Sources */,
 			);

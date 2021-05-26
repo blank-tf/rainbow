@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  LandingVC.swift
 //  rainbow
 //
 //  Created by Student on 5/19/21.
@@ -8,13 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class LandingVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
-
+    
 
 }
-
